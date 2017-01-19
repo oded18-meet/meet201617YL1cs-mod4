@@ -1,5 +1,5 @@
 import turtle
-
+import time
 class Rectangle :
     def __init__(self,length,height):
         """
@@ -66,3 +66,5 @@ class Rectangle :
         self.turtle.goto(0,0)
         self.turtle.penup()
         self.has_been_drawn=True
+        time.sleep(1)
+        self.turtle.clear()
